@@ -5,15 +5,15 @@ This sample shows how to draw a **rounded** corner background on text. It suppor
 
 * Set the background on **one line** text
 
-<img src="../TextRoundedBackgroundKotlin/screenshots/single.png" width="30%" />
+<img src="./screenshots/single.png" width="30%" />
 
 * Set the background on text over **two or multiple lines**
 
-<img src="../TextRoundedBackgroundKotlin/screenshots/multi.png" width="30%" />
+<img src="./screenshots/multi.png" width="30%" />
 
 * Set the background on **right-to-left** text
 
-<img src="../TextRoundedBackgroundKotlin/screenshots/rtl.png" width="30%" />
+<img src="./screenshots/rtl.png" width="30%" />
 
 
 Implementation
@@ -24,7 +24,7 @@ Depending on the position of the text, we need to draw four different drawables 
 * Text fits on 2 lines: we need drawables for the start and end of the text
 * Text spans multiple lines: we need drawables for the start, middle and end of the text
 
-<img src="../TextRoundedBackgroundKotlin/screenshots/lines.png" width="30%" />
+<img src="./screenshots/lines.png" width="30%" />
 
 The four drawables that need to be drawn depending on the position of the text:
 
